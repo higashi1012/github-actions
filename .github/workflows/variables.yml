@@ -7,5 +7,5 @@ jobs:
       USERNAME: ${{ vars.USERNAME }}
     steps:
       - run: |
-          echo "${ USERNAME }"
+          echo "${USERNAME}"
           echo "${{ vars.HELLO }}"
