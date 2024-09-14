@@ -1,7 +1,7 @@
-name: Workflow error
-on: push
-jobs:
-  run:
-    runs-on: ubuntu-latest
-      steps:
-      - run: echo "YAML Syntax Error"
+# name: Workflow error
+# on: push
+# jobs:
+#   run:
+#     runs-on: ubuntu-latest
+#       steps:
+#       - run: echo "YAML Syntax Error"
