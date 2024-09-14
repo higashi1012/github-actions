@@ -4,4 +4,14 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ github.actor }}"
+      - run: |
+          echo "${{ github.actor }}"
+          echo "${{ github.head_ref }}"
+          echo "${{ github.workspace }}"
+          echo "${{ github.repository }}"
+          echo "${{ github.repository_owner }}"
+          echo "${{ github.event }}"
+          echo "${{ github.job }}"
+          echo "${{ github.path }}"
+          echo "${{ github.action_status }}"
+          echo "${{ github.token }}"
